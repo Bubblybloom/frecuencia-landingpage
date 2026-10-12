@@ -10,6 +10,33 @@ h1, .logo{
     font-weight: 700;
     color: #342251;
 }
+h2{
+    font-family: "Space Grotesk";
+    font-weight: 700;
+    font-size: 30px;
+    color: #342251;
+    margin: 0;
+}
+h3{
+   font-family: "Space Grotesk";
+    font-weight: 600;
+    font-size: 24px;
+    color: #342251;
+    margin: 10px 0;
+}
+h4{
+    font-family: "Space Grotesk";
+    font-weight: 600;
+    color: #342251;
+
+}
+p{
+    font-family: "Source Sans 3";
+    font-weight: 400;
+    font-size: 16px;
+    color: #342251;
+    margin: 21px 0;
+}
 .logo{
     font-size: 24px;
 
@@ -17,6 +44,7 @@ h1, .logo{
 header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border-bottom: 2px solid #342251;
     margin: 0 20px;
 }
@@ -24,6 +52,12 @@ section{
     display: flex;
     flex-direction: column;
     border-bottom: 2px solid #342251;
+    margin: 0 20px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin: 0 20px;
 }
 .etiqueta{
@@ -34,5 +68,78 @@ section{
     font-family: "Source Sans 3";
     font-size: 16px;
     font-weight: 600;
-    color: #FF8A47;
+    color: #342251;
+    background-color: #FF8A47;
+    padding: 6px;
+}
+a{
+    text-decoration-line: none;
+    margin: 0;
+    color: #342251;
+    font-family: "Source Sans 3";
+    font-weight: 600;
+}
+li{
+    list-style-type: none;
+}
+ul{
+    display: flex;
+    gap: 20px;
+}
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    padding: 0 0 54px 0;
+}
+button{
+    margin-top: 21px;
+    padding: 10px;
+    font-family: "Source Sans 3";
+    font-weight: 600;
+    background-color: #FF8A47;
+    border: none
+}
+button a{
+    color: #FFF8EC;
+}
+.linea-media{
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    width: 80%;
+    height: 1px;
+    background-color: #342251;
+}
+.programas-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 20px;
+    width: 50%;
+}
+.datos{
+    margin: 20px 0;
+}
+.datos p{
+    margin: 0;
+}
+.enlace{
+    margin: 20px;
+}
+.enlace a{
+    color: #342251;
+    text-decoration-line: underline;
+    padding: 10px;
+}
+.radio-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 20px;
+    width: 50%;
+}
+#enlace-tres{
+    padding-bottom: 54px;
 }
