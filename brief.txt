@@ -1,0 +1,105 @@
+COLORES
+
+
+#FFF8EC	Fondo general y texto sobre violeta
+#342251	Texto principal, líneas y botones
+#FF8A47	Fondo de etiquetas y acentos, siempre con texto violeta
+#E7DDF3	Fondo de la sección de programas
+
+FUENTES
+
+- Space Grotesk 700: logotipo, título principal y horarios.
+- Space Grotesk 500: títulos de sección y nombres de programas.
+- Source Sans 3 400: párrafos y descripciones.
+- Source Sans 3 600: navegación, enlaces y etiquetas.
+
+
+Texto de lectura: mínimo 16 px e interlineado 1,5. No se usan cursivas.
+
+LOGO
+
+Logotipo de texto: frecuencia., en minúsculas, Space Grotesk 700, color violeta.
+El punto final forma parte del nombre visual y usa el mismo color. Sin símbolo adicional. En el header, el tamaño de referencia es 28 px. El logo enlaza al inicio de la página.
+
+
+COPY
+
+Header
+
+
+Logo: frecuencia.
+Navegación:
+- Programación → sección de horarios.
+- Los programas → descripción de los tres programas.
+- La radio → texto sobre la emisora.
+
+
+Presentación
+Etiqueta: RADIO INDEPENDIENTE
+Título: Cada momento tiene su frecuencia.
+Párrafo:
+“Hay canciones para abrir las ventanas y conversaciones para quedarse un rato más. Encontrá tu momento en nuestra programación.”
+Botón: Ver la programación
+Destino: sección de horarios.
+
+
+Programación
+Título: Así suena nuestro día.
+Texto:
+“Tres programas, de lunes a viernes. Todos los horarios corresponden a Buenos Aires.”
+La información se presenta como una tabla con estos encabezados y contenidos:
+Horario	Programa	Qué vas a encontrar	Enlace
+08:00–10:00	Ventanas abiertas	Música y pequeñas historias para empezar el día.	Conocer Ventanas abiertas
+17:00–19:00	Lado B	Discos, hallazgos y canciones que merecen otra vuelta.	Conocer Lado B
+22:00–23:00	Después del ruido	Conversaciones y sonidos para bajar el ritmo.	Conocer Después del ruido
+Cada enlace lleva a la descripción de ese programa dentro de la página.
+Nota:
+“Entre programas, la música sigue con una selección de la casa.”
+
+
+Los programas
+Título de sección: Tres maneras de acompañarte.
+01 / Ventanas abiertas
+Etiqueta: MAÑANAS
+Descripción:
+“Julia pone la primera canción mientras la ciudad empieza a moverse. Dos horas de soul, pop y pequeñas historias cotidianas para acompañar el desayuno, el viaje o ese rato antes de salir.”
+Datos:
+“Con Julia Costa.”
+“Lunes a viernes · 08:00 a 10:00.”
+Frase destacada:
+“El día puede empezar con una buena canción.”
+Enlace: Volver a la programación
+02 / Lado B
+Etiqueta: TARDES
+Descripción:
+“Nico elige un disco como punto de partida y sigue sus conexiones: influencias, versiones y artistas que vale la pena descubrir. Un recorrido por el indie, el funk y la electrónica suave, con espacio para escuchar temas completos.”
+Datos:
+“Con Nico Vidal.”
+“Lunes a viernes · 17:00 a 19:00.”
+Frase destacada:
+“Siempre queda algo por escuchar.”
+Enlace: Volver a la programación
+03 / Después del ruido
+Etiqueta: NOCHES
+Descripción:
+“Una conversación, una pregunta y música que deja espacio. Vera recibe a personas que cuentan cómo hacen lo que hacen: reparar instrumentos, traducir libros, cuidar un jardín o aprender a empezar otra vez.”
+Datos:
+“Con Vera Luna.”
+“Lunes a viernes · 22:00 a 23:00.”
+Frase destacada:
+“Algunas historias se escuchan mejor despacio.”
+Enlace: Volver a la programación
+
+
+La radio
+Título: Una radio hecha con oído.
+Párrafo:
+“FRECUENCIA nace de una costumbre sencilla: compartir algo que nos gustó escuchar. Elegimos la música y preparamos cada conversación con tiempo, curiosidad y ganas de hacer compañía.”
+Segundo párrafo:
+“Somos una emisora independiente. Acá conviven canciones conocidas, descubrimientos y voces que tienen algo para contar.”
+
+
+Footer
+“frecuencia. — Música y conversaciones para todos los días.”
+“Proyecto ficticio de práctica web. Esta página no transmite audio.”
+Enlace: Volver al inicio
