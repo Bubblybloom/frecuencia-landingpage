@@ -37,9 +37,18 @@ p{
     color: #342251;
     margin: 21px 0;
 }
+th{
+    font-family: "Space Grotesk";
+    font-weight: 700;
+    color: #342251;
+}
+td{
+    font-family: "Space Grotesk";
+    font-weight: 500;
+    color: #342251;
+}    
 .logo{
     font-size: 24px;
-
 }
 header{
     display: flex;
@@ -138,8 +147,21 @@ button a{
     flex-direction: column;
     justify-content: flex-start;
     margin-left: 20px;
+    padding-bottom: 54px;
     width: 50%;
 }
 #enlace-tres{
     padding-bottom: 54px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  text-align: left;
+  padding: 20px 12px;
+  border-bottom: 1px solid #342251;
+}
+.frase-cierre{
+    padding: 54px 0;
 }
