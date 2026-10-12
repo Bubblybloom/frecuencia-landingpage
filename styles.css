@@ -5,7 +5,7 @@ body{
     margin: 0;
     background-color: #FFF8EC;
 }
-h1, .logo{
+h1{
     font-family: "Space Grotesk";
     font-weight: 700;
     color: #342251;
@@ -107,11 +107,12 @@ button{
     padding: 10px;
     font-family: "Source Sans 3";
     font-weight: 600;
+    font-size: 16px;
     background-color: #FF8A47;
-    border: none
+    border: none;
 }
 button a{
-    color: #FFF8EC;
+    color: #342251;
 }
 .linea-media{
     display: flex;
@@ -164,4 +165,9 @@ th, td {
 }
 .frase-cierre{
     padding: 54px 0;
+}
+.logo p{
+    font-family: "Space Grotesk";
+    font-weight: 700;
+    color: #342251;
 }
