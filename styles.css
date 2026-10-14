@@ -47,9 +47,6 @@ td{
     font-weight: 500;
     color: #342251;
 }    
-.logo{
-    font-size: 24px;
-}
 header{
     display: flex;
     justify-content: space-between;
@@ -66,6 +63,7 @@ section{
 footer{
     display: flex;
     justify-content: space-between;
+    gap: 20px;
     align-items: center;
     margin: 0 20px;
 }
@@ -94,6 +92,7 @@ li{
 ul{
     display: flex;
     gap: 20px;
+    padding: 0;
 }
 .hero-container{
     display: flex;
@@ -102,16 +101,13 @@ ul{
     width: 50%;
     padding: 0 0 54px 0;
 }
-button{
+.hero-container a{
     margin-top: 21px;
     padding: 10px;
     font-family: "Source Sans 3";
     font-weight: 600;
     font-size: 16px;
     background-color: #FF8A47;
-    border: none;
-}
-button a{
     color: #342251;
 }
 .linea-media{
@@ -146,8 +142,6 @@ button a{
 .radio-container{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    margin-left: 20px;
     padding-bottom: 54px;
     width: 50%;
 }
@@ -169,5 +163,27 @@ th, td {
 .logo p{
     font-family: "Space Grotesk";
     font-weight: 700;
+    font-size: 24px;
     color: #342251;
+}
+@media (max-width: 600px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        text-align: center;
+        margin-bottom: 21px;
+    }
+    ul{
+        flex-direction: column;
+        text-align: end;
+        gap: 0;
+    }
+    .hero-container, .radio-container{
+        width: 100%;
+    }
+    .programas-container{
+        width: calc(100% - 20px);
+    }
+    
 }
